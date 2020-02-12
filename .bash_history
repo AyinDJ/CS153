@@ -29,3 +29,124 @@ ls
 cd xv6/
 ls
 gdb
+ls
+cd xv6/
+ls
+make clean
+ls
+vi usys.S
+vi syscall.h
+vi syscall.c
+vi user.h
+vi defs.h 
+vi sysproc.c
+vi proc.c
+vi proc.h
+vi usys.S
+vi syscall.h
+vi sysproc.c
+vi syscall.c
+vi user.h
+vi defs.h 
+vi sysproc.c
+vi proc.c
+vi usys.S 
+vi syscall.h
+vi syscall.c
+vi user.h
+defs.h
+vi defs.h
+vi sysproc.c 
+vi proc.c
+vi proc.h
+vi lab1.c
+geany lab1.c
+vi lab1.c 
+make qemu-nox
+vi x86.h
+vi usys.S
+vi syscall.h
+vi syscall.c
+vi user.h
+make qemu-nox
+vi proc.c
+vi forktest.c 
+make qemu-nox
+vi init.c 
+make qemu-nox
+vi sh.c
+make qemu-nox
+vi sh.c
+make qemu-nox
+vi sh.c
+vi user.h
+vi sh.c
+make qemu-nox
+vi sh.c
+make qemu-nox
+vi stressfs.c 
+make qemu-nox
+vi usertests.c 
+make qemu-nox
+vi bio.c
+make qemu-nox
+vi defs.h
+make qemu-nox
+vi defs.h
+make qemu-nox
+vi sysproc.c 
+vi def.h
+ls
+vi defs.h
+make qemu-nox
+vi sysproc.c 
+make qemu-nox
+vi sysproc.c 
+make qemu-nox
+vi sysproc.c 
+make qemu-nox
+vi Makefile
+make qemu-nox
+vi Makefile
+make qemu-nox
+vi lab1.c
+make qemu-nox
+vi lab1.c
+ls
+make clean
+ls
+cd ..
+ls
+zip -r lab1-xhe058.zip xv6
+git init
+git add .
+git commit -m "lol"
+git config --global xhe058@ucr.edu
+git config --global user.email "xhe058@ucr.edu"
+git config --global user.name "XiaojunHe"
+git commit -m "lol"
+git push
+ls
+tar -zcvf lab1-xhe058 xv6
+ls
+git add lab1-xhe058 
+git commit -m "lab1"
+git push
+git remote add origin https://github.com/AyinDJ/CS153.git
+git push -u origin master
+ls
+git add -A
+git commit -m "lol"
+git pus
+git push
+ls
+cd xv6/
+ls
+vi usys.S 
+vi syscall.h
+vi syscall.c
+vi defs.h 
+vi user.h
+vi sysproc.c 
+vi proc.h
+vi proc.c

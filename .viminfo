@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:q
 :wq
+:q
 :q!
 
 # Search String History (newest to oldest):
@@ -26,32 +26,58 @@
 	//
 
 # File marks:
-'0  128  0  ~/xv6/lab1.c
-'1  53  2  ~/xv6/lab1.c
-'2  185  6  ~/xv6/Makefile
-'3  30  5  ~/xv6/Makefile
-'4  113  5  ~/xv6/sysproc.c
-'5  116  34  ~/xv6/sysproc.c
-'6  119  34  ~/xv6/sysproc.c
-'7  154  32  ~/xv6/defs.h
-'8  1  0  ~/xv6/def.h
-'9  130  42  ~/xv6/defs.h
+'0  354  11  ~/xv6/proc.c
+'1  223  8  ~/xv6/Makefile
+'2  655  0  ~/xv6/proc.c
+'3  105  8  ~/xv6/defs.h
+'4  53  30  ~/xv6/proc.h
+'5  134  39  ~/xv6/syscall.c
+'6  25  31  ~/xv6/syscall.h
+'7  1  0  ~/xv6/syscall.
+'8  6  0  ~/xv6/user.h
+'9  1  0  ~/xv6/usys.S
 
 # Jumplist (newest first):
+-'  354  11  ~/xv6/proc.c
+-'  1  0  ~/xv6/proc.c
+-'  223  8  ~/xv6/Makefile
+-'  1  0  ~/xv6/Makefile
+-'  655  0  ~/xv6/proc.c
+-'  105  8  ~/xv6/defs.h
+-'  1  0  ~/xv6/defs.h
+-'  53  30  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  134  39  ~/xv6/syscall.c
+-'  1  0  ~/xv6/syscall.c
+-'  25  31  ~/xv6/syscall.h
+-'  1  0  ~/xv6/syscall.h
+-'  1  0  ~/xv6/syscall.
+-'  6  0  ~/xv6/user.h
+-'  1  0  ~/xv6/user.h
+-'  1  0  ~/xv6/usys.S
+-'  133  0  ~/xv6/sysproc.c
+-'  1  0  ~/xv6/sysproc.c
+-'  28  26  ~/xv6/user.h
+-'  34  25  ~/xv6/usys.S
+-'  56  10  ~/xv6/lab2.c
+-'  1  0  ~/xv6/lab2.c
+-'  589  0  ~/xv6/proc.c
+-'  645  0  ~/xv6/proc.c
+-'  60  0  ~/xv6/proc.h
+-'  122  0  ~/xv6/sysproc.c
+-'  96  0  ~/xv6/defs.h
+-'  84  0  ~/xv6/syscall.c
 -'  128  0  ~/xv6/lab1.c
 -'  1  0  ~/xv6/lab1.c
 -'  53  2  ~/xv6/lab1.c
 -'  185  6  ~/xv6/Makefile
--'  1  0  ~/xv6/Makefile
 -'  30  5  ~/xv6/Makefile
 -'  113  5  ~/xv6/sysproc.c
--'  1  0  ~/xv6/sysproc.c
 -'  116  34  ~/xv6/sysproc.c
 -'  119  34  ~/xv6/sysproc.c
--'  154  32  ~/xv6/defs.h
--'  1  0  ~/xv6/defs.h
+-'  155  32  ~/xv6/defs.h
 -'  1  0  ~/xv6/def.h
--'  130  42  ~/xv6/defs.h
+-'  131  42  ~/xv6/defs.h
 -'  124  2  ~/xv6/defs.h
 -'  1  0  ~/xv6/bio.c
 -'  1723  7  ~/xv6/usertests.c
@@ -62,7 +88,6 @@
 -'  1  0  ~/xv6/sh.c
 -'  170  9  ~/xv6/sh.c
 -'  7  9  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  121  9  ~/xv6/sh.c
 -'  96  11  ~/xv6/sh.c
 -'  34  21  ~/xv6/init.c
@@ -70,56 +95,30 @@
 -'  37  12  ~/xv6/forktest.c
 -'  1  0  ~/xv6/forktest.c
 -'  272  2  ~/xv6/proc.c
--'  1  0  ~/xv6/proc.c
 -'  280  8  ~/xv6/proc.c
 -'  27  46  ~/xv6/user.h
--'  149  0  ~/xv6/syscall.c
--'  1  0  ~/xv6/syscall.c
--'  1  0  ~/xv6/syscall.h
--'  1  0  ~/xv6/usys.S
+-'  151  0  ~/xv6/syscall.c
 -'  1  0  ~/xv6/x86.h
 -'  52  1  ~/xv6/proc.h
--'  1  0  ~/xv6/proc.h
--'  633  0  ~/xv6/proc.c
--'  122  12  ~/xv6/sysproc.c
--'  132  25  ~/xv6/syscall.c
+-'  133  25  ~/xv6/syscall.c
 -'  24  21  ~/xv6/syscall.h
 -'  33  14  ~/xv6/usys.S
 -'  331  16  ~/xv6/proc.c
 -'  32  15  ~/xv6/sysproc.c
 -'  120  31  ~/xv6/defs.h
--'  130  0  ~/xv6/syscall.c
+-'  131  0  ~/xv6/syscall.c
 -'  2  0  ~/xv6/syscall.h
--'  552  0  ~/xv6/proc.c
+-'  564  0  ~/xv6/proc.c
 -'  97  12  ~/xv6/sysproc.c
 -'  123  23  ~/xv6/defs.h
--'  38  8  ~/xv6/user.h
--'  131  20  ~/xv6/syscall.c
+-'  39  8  ~/xv6/user.h
+-'  132  20  ~/xv6/syscall.c
 -'  23  20  ~/xv6/syscall.h
 -'  32  11  ~/xv6/usys.S
--'  129  0  ~/xv6/syscall.c
--'  52  1  ~/xv6/proc.h
--'  1  0  ~/xv6/proc.h
--'  1  0  ~/xv6/usys.S
+-'  130  0  ~/xv6/syscall.c
 -'  1  0  ~/xv6/x86.h
--'  52  1  ~/xv6/proc.h
--'  1  0  ~/xv6/proc.h
--'  1  0  ~/xv6/syscall.h
--'  1  0  ~/xv6/usys.S
 -'  1  0  ~/xv6/x86.h
--'  52  1  ~/xv6/proc.h
--'  1  0  ~/xv6/proc.h
--'  149  0  ~/xv6/syscall.c
--'  1  0  ~/xv6/syscall.c
--'  1  0  ~/xv6/syscall.h
--'  1  0  ~/xv6/usys.S
 -'  1  0  ~/xv6/x86.h
--'  52  1  ~/xv6/proc.h
--'  1  0  ~/xv6/proc.h
--'  149  0  ~/xv6/syscall.c
--'  1  0  ~/xv6/syscall.c
--'  1  0  ~/xv6/syscall.h
--'  1  0  ~/xv6/usys.S
 -'  1  0  ~/xv6/bio.c
 -'  1723  7  ~/xv6/usertests.c
 -'  1  0  ~/xv6/usertests.c
@@ -130,36 +129,135 @@
 -'  1  0  ~/xv6/bio.c
 -'  1723  7  ~/xv6/usertests.c
 -'  1  0  ~/xv6/usertests.c
--'  185  6  ~/xv6/Makefile
+-'  128  0  ~/xv6/lab1.c
+-'  1  0  ~/xv6/lab1.c
+-'  128  0  ~/xv6/lab1.c
+-'  1  0  ~/xv6/lab1.c
+-'  53  2  ~/xv6/lab1.c
+-'  223  8  ~/xv6/Makefile
 -'  1  0  ~/xv6/Makefile
--'  30  5  ~/xv6/Makefile
 
 # History of marks within files (newest to oldest):
 
-> ~/xv6/lab1.c
-	"	128	0
-	^	54	10
-	.	54	9
-	+	128	0
-	+	24	5
-	+	28	8
-	+	73	6
-	+	112	7
-	+	41	9
-	+	46	9
-	+	54	9
+> ~/xv6/proc.c
+	"	354	11
+	^	354	12
+	.	354	11
+	+	597	0
+	+	555	5
+	+	561	1
+	+	565	26
+	+	563	26
+	+	273	15
+	+	294	0
+	+	290	12
+	+	292	0
+	+	291	22
+	+	293	14
+	+	645	0
+	+	600	8
+	+	614	21
+	+	603	14
+	+	334	15
+	+	342	14
+	+	334	21
+	+	342	20
+	+	347	46
+	+	349	1
+	+	349	0
+	+	347	46
+	+	350	4
+	+	354	10
+	+	347	22
+	+	356	0
+	+	355	6
+	+	358	30
+	+	369	6
+	+	648	31
+	+	655	0
+	+	650	33
+	+	652	1
+	+	651	30
+	+	654	1
+	+	653	24
+	+	354	11
 
 > ~/xv6/Makefile
-	"	185	6
-	^	185	7
-	.	185	6
+	"	223	8
+	^	223	9
+	.	223	8
 	+	30	0
 	+	185	6
+	+	186	7
+	+	225	0
+	+	223	8
+
+> ~/xv6/defs.h
+	"	105	8
+	^	105	9
+	.	125	28
+	+	124	0
+	+	123	23
+	+	120	31
+	+	124	3
+	+	125	0
+	+	124	47
+	+	125	28
+
+> ~/xv6/proc.h
+	"	53	30
+	^	53	31
+	.	53	30
+	+	52	30
+	+	53	30
+
+> ~/xv6/syscall.c
+	"	134	39
+	^	134	40
+	.	134	39
+	+	106	18
+	+	132	20
+	+	107	28
+	+	133	13
+	+	132	13
+	+	133	25
+	+	108	38
+	+	134	34
+	+	135	2
+	+	134	39
+
+> ~/xv6/syscall.h
+	"	25	31
+	^	25	32
+	.	25	32
+	+	23	21
+	+	24	22
+	+	25	32
+
+> ~/xv6/syscall.
+	"	1	0
+
+> ~/xv6/user.h
+	"	6	0
+	^	28	27
+	.	28	26
+	+	26	8
+	+	7	13
+	+	27	46
+	+	28	26
+
+> ~/xv6/usys.S
+	"	1	0
+	^	34	26
+	.	34	25
+	+	32	13
+	+	33	16
+	+	34	25
 
 > ~/xv6/sysproc.c
-	"	113	5
-	^	113	6
-	.	113	5
+	"	133	0
+	^	133	1
+	.	132	9
 	+	99	14
 	+	108	0
 	+	102	0
@@ -190,17 +288,32 @@
 	+	119	35
 	+	116	61
 	+	113	5
+	+	126	22
+	+	133	0
+	+	128	28
+	+	130	1
+	+	129	11
+	+	131	23
+	+	132	9
 
-> ~/xv6/defs.h
-	"	154	32
-	^	130	43
-	.	124	47
-	+	124	0
-	+	123	23
-	+	120	31
-	+	124	3
-	+	125	0
-	+	124	47
+> ~/xv6/lab2.c
+	"	56	10
+	^	56	11
+	.	56	9
+	+	56	9
+
+> ~/xv6/lab1.c
+	"	128	0
+	^	54	10
+	.	54	9
+	+	128	0
+	+	24	5
+	+	28	8
+	+	73	6
+	+	112	7
+	+	41	9
+	+	46	9
+	+	54	9
 
 > ~/xv6/def.h
 	"	1	0
@@ -250,14 +363,6 @@
 	+	170	9
 	+	122	9
 
-> ~/xv6/user.h
-	"	7	9
-	^	27	47
-	.	27	46
-	+	26	8
-	+	7	13
-	+	27	46
-
 > ~/xv6/init.c
 	"	34	21
 	^	34	22
@@ -273,57 +378,5 @@
 	+	43	10
 	+	37	12
 
-> ~/xv6/proc.c
-	"	272	2
-	^	633	1
-	.	591	14
-	+	585	0
-	+	543	5
-	+	549	1
-	+	553	26
-	+	551	26
-	+	273	15
-	+	294	0
-	+	290	12
-	+	292	0
-	+	291	22
-	+	293	14
-	+	633	0
-	+	588	8
-	+	602	21
-	+	591	14
-
-> ~/xv6/syscall.c
-	"	149	0
-	^	132	26
-	.	132	25
-	+	106	18
-	+	131	20
-	+	107	28
-	+	132	13
-	+	131	13
-	+	132	25
-
-> ~/xv6/syscall.h
-	"	1	0
-	^	24	22
-	.	24	21
-	+	23	21
-	+	24	21
-
-> ~/xv6/usys.S
-	"	1	0
-	^	33	15
-	.	33	14
-	+	32	13
-	+	33	14
-
 > ~/xv6/x86.h
 	"	1	0
-
-> ~/xv6/proc.h
-	"	52	1
-	^	53	2
-	.	53	1
-	+	52	30
-	+	53	1
