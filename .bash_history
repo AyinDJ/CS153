@@ -150,3 +150,54 @@ vi user.h
 vi sysproc.c 
 vi proc.h
 vi proc.c
+ls
+cd xv6
+ls
+vi proc.c
+vi lab2.c
+vi usys.S 
+vi user.h 
+vi usys.S 
+vi sysproc.c 
+vi usys.S 
+vi user.h 
+vi syscall.
+vi syscall.h
+vi syscall.c
+vi proc.h
+vi defs.h 
+vi proc.c
+ls
+vi Makefile 
+make qemu-nox
+vi proc.c 
+make qemu-nox
+ls
+make clean
+ls
+cd  ..
+ls
+zip -r lab2-xhe058.zip xv6
+zip -r -X lab2-xhe058.zip xv6
+git git remote add origin https://github.com/AyinDJ/CS153-lab2.git
+git remote add origin https://github.com/AyinDJ/CS153-lab2.git
+git push -u origin master
+ls
+git add -A
+git commit -m "lab2"
+git push
+ls
+zip -r lab2-xhe058.zip xv6
+zip lab2-xhe058.zip xv6
+tar lab2-xhe058.zip xv6
+zip lab2-xhe058.zip xv6
+tar -zcvf lab2-xhe058 xv6
+ls
+zip lab2-xhe058.zip xv6
+ls
+git add -A
+git commit -m "lab2 up"
+git push
+ls
+cd xv6
+make qemu-nox

@@ -26,23 +26,24 @@
 	//
 
 # File marks:
-'0  354  11  ~/xv6/proc.c
-'1  223  8  ~/xv6/Makefile
-'2  655  0  ~/xv6/proc.c
-'3  105  8  ~/xv6/defs.h
-'4  53  30  ~/xv6/proc.h
-'5  134  39  ~/xv6/syscall.c
-'6  25  31  ~/xv6/syscall.h
-'7  1  0  ~/xv6/syscall.
-'8  6  0  ~/xv6/user.h
-'9  1  0  ~/xv6/usys.S
+'0  653  0  ~/xv6/proc.c
+'1  329  14  ~/xv6/proc.c
+'2  354  11  ~/xv6/proc.c
+'3  223  8  ~/xv6/Makefile
+'4  105  8  ~/xv6/defs.h
+'5  53  30  ~/xv6/proc.h
+'6  134  39  ~/xv6/syscall.c
+'7  25  31  ~/xv6/syscall.h
+'8  1  0  ~/xv6/syscall.
+'9  6  0  ~/xv6/user.h
 
 # Jumplist (newest first):
--'  354  11  ~/xv6/proc.c
+-'  653  0  ~/xv6/proc.c
 -'  1  0  ~/xv6/proc.c
+-'  329  14  ~/xv6/proc.c
+-'  354  11  ~/xv6/proc.c
 -'  223  8  ~/xv6/Makefile
 -'  1  0  ~/xv6/Makefile
--'  655  0  ~/xv6/proc.c
 -'  105  8  ~/xv6/defs.h
 -'  1  0  ~/xv6/defs.h
 -'  53  30  ~/xv6/proc.h
@@ -61,8 +62,8 @@
 -'  34  25  ~/xv6/usys.S
 -'  56  10  ~/xv6/lab2.c
 -'  1  0  ~/xv6/lab2.c
--'  589  0  ~/xv6/proc.c
--'  645  0  ~/xv6/proc.c
+-'  591  0  ~/xv6/proc.c
+-'  647  0  ~/xv6/proc.c
 -'  60  0  ~/xv6/proc.h
 -'  122  0  ~/xv6/sysproc.c
 -'  96  0  ~/xv6/defs.h
@@ -108,7 +109,7 @@
 -'  120  31  ~/xv6/defs.h
 -'  131  0  ~/xv6/syscall.c
 -'  2  0  ~/xv6/syscall.h
--'  564  0  ~/xv6/proc.c
+-'  566  0  ~/xv6/proc.c
 -'  97  12  ~/xv6/sysproc.c
 -'  123  23  ~/xv6/defs.h
 -'  39  8  ~/xv6/user.h
@@ -134,30 +135,28 @@
 -'  128  0  ~/xv6/lab1.c
 -'  1  0  ~/xv6/lab1.c
 -'  53  2  ~/xv6/lab1.c
--'  223  8  ~/xv6/Makefile
--'  1  0  ~/xv6/Makefile
 
 # History of marks within files (newest to oldest):
 
 > ~/xv6/proc.c
-	"	354	11
-	^	354	12
-	.	354	11
-	+	597	0
-	+	555	5
-	+	561	1
+	"	653	0
+	^	329	15
+	.	653	0
+	+	599	0
+	+	557	5
+	+	563	1
+	+	567	26
 	+	565	26
-	+	563	26
 	+	273	15
 	+	294	0
 	+	290	12
 	+	292	0
 	+	291	22
 	+	293	14
-	+	645	0
-	+	600	8
-	+	614	21
-	+	603	14
+	+	647	0
+	+	602	8
+	+	616	21
+	+	605	14
 	+	334	15
 	+	342	14
 	+	334	21
@@ -173,14 +172,23 @@
 	+	355	6
 	+	358	30
 	+	369	6
-	+	648	31
-	+	655	0
-	+	650	33
-	+	652	1
-	+	651	30
-	+	654	1
-	+	653	24
+	+	650	31
+	+	653	0
+	+	651	66
+	+	652	32
+	+	652	30
+	+	652	55
+	+	652	54
 	+	354	11
+	+	371	6
+	+	370	14
+	+	652	30
+	+	652	1
+	+	652	31
+	+	652	54
+	+	653	0
+	+	652	30
+	+	653	0
 
 > ~/xv6/Makefile
 	"	223	8
